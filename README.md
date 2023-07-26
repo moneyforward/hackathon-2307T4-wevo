@@ -1,10 +1,10 @@
 ![pres-home.png](./asset/pres-home.png)
 
-# Wevolution (w/ Wevo-bot) - AI Powered 36 Feedback System
+# Wevolution (w/ Wevo-bot) - AI Powered 360 Feedback System
 
 ## How to Run
 1. Install `Docker`.
-2. Prepare all the neccessary ENV VAR.
+2. Prepare all the necessary ENV VAR.
 3`./build-run.sh`.
 
 ## Resources
