@@ -1,0 +1,13 @@
+services:
+  wevo-db:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: hogehoge
+      MYSQL_DATABASE: wevo
+    ports:
+      - 33306:3306
+#    volumes:
+#      - ./data:/var/lib/mysql
+#      - ./db:/docker-entrypoint-initdb.d
